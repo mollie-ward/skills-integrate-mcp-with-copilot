@@ -1,3 +1,30 @@
+/* Filters bar styles */
+.filters-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+  align-items: center;
+}
+
+#activity-filters input,
+#activity-filters select {
+  padding: 7px 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+#activity-filters input[type="text"] {
+  flex: 2 1 180px;
+  min-width: 120px;
+}
+
+#activity-filters select {
+  flex: 1 1 120px;
+  min-width: 100px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -73,6 +100,7 @@ section h3 {
 .activity-card p {
   margin-bottom: 8px;
 }
+
 
 /* New styles for participants section */
 .participants-container {
